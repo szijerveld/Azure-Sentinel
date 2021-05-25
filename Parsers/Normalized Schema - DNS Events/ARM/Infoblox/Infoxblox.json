@@ -11,7 +11,7 @@
       "infobloxComputer": {
           "type": "string",
           "metadata": {
-             "description": "Comma separated list of quoted Infoblox computer names."
+             "description": "Comma separated list of quoted Infoblox computer names"
           }
       }
   },
