@@ -10,7 +10,9 @@
       },
       "infobloxComputer": {
           "type": "string",
-          "description": "Comma separated list of quoted Infoblox computer names."
+          "metadata": {
+             "description": "Comma separated list of quoted Infoblox computer names."
+          }
       }
   },
   "resources": [
