@@ -11,12 +11,11 @@
   },
     "resources": [
         {
-        "name": "[concat(parameters('workspaceName'), '/Microsoft.SecurityInsights/AzurePublicIPsList2')]",
+        "name": "[concat(parameters('workspaceName'), '/Microsoft.SecurityInsights/AzurePublicIPsList3')]",
         "type": "Microsoft.OperationalInsights/workspaces/providers/Watchlists",
         "kind": "",
         "properties": {
-            "watchlistAlias": "AzurePublicIPsList2",
-            "displayName": "AzurePublicIPsList2",
+            "displayName": "AzurePublicIPsList3",
             "source": "AzurePublicIPsList.csv",
             "description": "Azure Public IPs list for reducing internet facing traffic alerts from MSFT IP Addresses",
             "provider": "Microsoft",
