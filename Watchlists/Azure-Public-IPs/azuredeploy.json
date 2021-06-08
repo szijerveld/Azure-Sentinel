@@ -11,7 +11,7 @@
   },
     "resources": [
         {
-        "name": "[concat(parameters('workspaceName'), '/Microsoft.SecurityInsights/DataCenterLocation')]",
+        "name": "[concat(parameters('workspaceName'), '/Microsoft.SecurityInsights/AzurePublicIPsList')]",
         "type": "Microsoft.OperationalInsights/workspaces/providers/Watchlists",
         "kind": "",
         "properties": {
