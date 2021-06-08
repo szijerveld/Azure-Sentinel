@@ -15,6 +15,7 @@
         "type": "Microsoft.OperationalInsights/workspaces/providers/Watchlists",
         "kind": "",
         "properties": {
+            "watchlistAlias": "AzurePublicIPsList3",
             "displayName": "AzurePublicIPsList3",
             "source": "AzurePublicIPsList.csv",
             "description": "Azure Public IPs list for reducing internet facing traffic alerts from MSFT IP Addresses",
